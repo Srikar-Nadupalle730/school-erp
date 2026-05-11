@@ -1,0 +1,251 @@
+2026-05-07 19:29:25,801 DEBUG cd frappe-bench && uv venv env --seed --python python3
+2026-05-07 19:29:27,221 LOG Getting frappe
+2026-05-07 19:29:27,222 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2026-05-07 19:29:36,769 LOG Installing frappe
+2026-05-07 19:29:36,771 DEBUG cd /home/srikar/Desktop/agproject/frappe-bench && uv pip install --quiet --upgrade -e /home/srikar/Desktop/agproject/frappe-bench/apps/frappe  --python /home/srikar/Desktop/agproject/frappe-bench/env/bin/python
+2026-05-07 19:29:40,541 DEBUG cd /home/srikar/Desktop/agproject/frappe-bench/apps/frappe && yarn install --check-files
+2026-05-07 19:29:51,641 DEBUG cd frappe-bench && bench build
+2026-05-07 19:29:51,859 INFO /home/srikar/.local/bin/bench build
+2026-05-07 19:30:18,189 LOG setting up backups
+2026-05-07 19:30:18,203 LOG backups were set up
+2026-05-07 19:30:18,204 INFO Bench frappe-bench initialized
+2026-05-07 19:30:49,270 INFO /home/srikar/.local/bin/bench new-app --help
+2026-05-07 19:31:07,419 INFO /home/srikar/.local/bin/bench new-app school_erp
+2026-05-07 19:31:07,423 LOG creating new app school_erp
+2026-05-07 19:31:08,816 WARNING /home/srikar/.local/bin/bench new-app school_erp executed with exit code 1
+2026-05-07 19:31:19,541 INFO /home/srikar/.local/bin/bench new-app school_erp
+2026-05-07 19:31:19,545 LOG creating new app school_erp
+2026-05-07 19:31:20,415 WARNING /home/srikar/.local/bin/bench new-app school_erp executed with exit code 1
+2026-05-07 19:31:52,186 INFO /home/srikar/.local/bin/bench new-app school_erp
+2026-05-07 19:31:52,191 LOG creating new app school_erp
+2026-05-07 19:31:54,577 LOG Installing school_erp
+2026-05-07 19:31:54,578 DEBUG cd /home/srikar/Desktop/agproject/frappe-bench && uv pip install --quiet --upgrade -e /home/srikar/Desktop/agproject/frappe-bench/apps/school_erp  --python /home/srikar/Desktop/agproject/frappe-bench/env/bin/python
+2026-05-07 19:31:55,191 DEBUG bench build --app school_erp
+2026-05-07 19:31:55,376 INFO /home/srikar/.local/bin/bench build --app school_erp
+2026-05-07 19:37:32,035 INFO /home/srikar/.local/bin/bench new-site school.local --db-root-password password --admin-password admin
+2026-05-07 19:38:31,845 INFO /home/srikar/.local/bin/bench --site school.local install-app school_erp
+2026-05-07 19:38:47,668 INFO /home/srikar/.local/bin/bench --site school.local set-config developer_mode 1
+2026-05-07 19:38:48,154 INFO /home/srikar/.local/bin/bench --site school.local clear-cache
+2026-05-07 19:45:00,692 INFO /home/srikar/.local/bin/bench start
+2026-05-07 19:47:03,552 INFO /home/srikar/.local/bin/bench --site school.local set-config allow_cors http://localhost:5173
+2026-05-07 19:49:19,411 INFO /home/srikar/.local/bin/bench start
+2026-05-07 19:49:19,654 INFO /home/srikar/.local/bin/bench watch
+2026-05-07 19:49:19,662 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-07 19:49:19,663 INFO /home/srikar/.local/bin/bench worker
+2026-05-07 19:49:19,671 INFO /home/srikar/.local/bin/bench schedule
+2026-05-07 19:50:03,596 INFO /home/srikar/.local/bin/bench start
+2026-05-07 19:53:27,751 INFO /home/srikar/.local/bin/bench start
+2026-05-07 19:53:27,964 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-07 19:53:27,976 INFO /home/srikar/.local/bin/bench schedule
+2026-05-07 19:53:27,977 INFO /home/srikar/.local/bin/bench worker
+2026-05-07 19:53:27,988 INFO /home/srikar/.local/bin/bench watch
+2026-05-07 19:55:10,676 INFO /home/srikar/.local/bin/bench use school.local
+2026-05-07 19:55:53,584 INFO /home/srikar/.local/bin/bench start
+2026-05-07 19:55:53,819 INFO /home/srikar/.local/bin/bench watch
+2026-05-07 19:55:53,820 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-07 19:55:53,824 INFO /home/srikar/.local/bin/bench schedule
+2026-05-07 19:55:53,826 INFO /home/srikar/.local/bin/bench worker
+2026-05-07 20:01:10,925 INFO /home/srikar/.local/bin/bench start
+2026-05-07 20:01:39,103 INFO /home/srikar/.local/bin/bench start
+2026-05-07 20:01:39,372 INFO /home/srikar/.local/bin/bench worker
+2026-05-07 20:01:39,372 INFO /home/srikar/.local/bin/bench watch
+2026-05-07 20:01:39,380 INFO /home/srikar/.local/bin/bench schedule
+2026-05-07 20:01:39,396 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-07 20:48:24,108 INFO /home/srikar/.local/bin/bench start
+2026-05-07 20:48:24,616 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-07 20:48:24,651 INFO /home/srikar/.local/bin/bench watch
+2026-05-07 20:48:24,651 INFO /home/srikar/.local/bin/bench worker
+2026-05-07 20:48:24,651 INFO /home/srikar/.local/bin/bench schedule
+2026-05-07 20:59:08,897 INFO /home/srikar/.local/bin/bench start
+2026-05-07 20:59:09,184 INFO /home/srikar/.local/bin/bench schedule
+2026-05-07 20:59:09,189 INFO /home/srikar/.local/bin/bench watch
+2026-05-07 20:59:09,189 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-07 20:59:09,192 INFO /home/srikar/.local/bin/bench worker
+2026-05-07 21:01:46,756 INFO /home/srikar/.local/bin/bench --site school.local execute frappe.get_roles('Administrator')
+2026-05-07 21:02:06,255 INFO /home/srikar/.local/bin/bench execute test_user.main
+2026-05-07 21:06:15,889 INFO /home/srikar/.local/bin/bench --site school.local execute frappe.db.set_single_value('Website Settings', 'home_page', 'app')
+2026-05-08 08:40:18,927 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:05:43,323 INFO /home/srikar/.local/bin/bench --help
+2026-05-08 09:08:28,519 INFO /home/srikar/.local/bin/bench setup redis
+2026-05-08 09:08:50,527 INFO /home/srikar/.local/bin/bench setup procfile
+2026-05-08 09:09:05,712 INFO /home/srikar/.local/bin/bench setup supervisor
+2026-05-08 09:09:05,720 WARNING /home/srikar/.local/bin/bench setup supervisor executed with exit code 1
+2026-05-08 09:09:16,991 INFO /home/srikar/.local/bin/bench migrate-env python3
+2026-05-08 09:09:16,995 LOG Clearing Redis Cache...
+2026-05-08 09:09:16,995 DEBUG /usr/bin/redis-cli -p 13000 FLUSHALL
+2026-05-08 09:09:17,004 WARNING /usr/bin/redis-cli -p 13000 FLUSHALL executed with exit code 1
+2026-05-08 09:09:17,005 WARNING Please ensure Redis Connections are running or Daemonized.
+2026-05-08 09:09:17,005 LOG Backing up Virtual Environment
+2026-05-08 09:09:17,005 LOG Setting up a New Virtual /usr/bin/python3 Environment
+2026-05-08 09:09:17,005 DEBUG uv venv /home/srikar/Desktop/school_ERP_Project/frappe-bench/env --seed --python /usr/bin/python3
+2026-05-08 09:09:17,443 DEBUG uv pip install --upgrade -e apps/frappe --python /home/srikar/Desktop/school_ERP_Project/frappe-bench/env/bin/python
+2026-05-08 09:09:26,084 DEBUG uv pip install --upgrade -e apps/school_erp --python /home/srikar/Desktop/school_ERP_Project/frappe-bench/env/bin/python
+2026-05-08 09:09:26,491 LOG Migration Successful to /usr/bin/python3
+2026-05-08 09:09:56,530 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:09:56,782 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:09:56,782 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:09:56,782 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:09:56,794 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:16:51,709 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:17:19,669 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:17:41,093 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:18:40,840 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:18:41,211 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:18:41,217 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:18:41,222 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:18:41,227 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:19:43,963 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:20:49,864 INFO /home/srikar/.local/bin/bench version
+2026-05-08 09:21:15,956 INFO /home/srikar/.local/bin/bench schedule --help
+2026-05-08 09:21:51,218 INFO /home/srikar/.local/bin/bench setup requirements
+2026-05-08 09:21:51,226 DEBUG uv pip install --quiet --upgrade pip --python /home/srikar/Desktop/school_ERP_Project/frappe-bench/env/bin/python
+2026-05-08 09:21:51,776 LOG Installing frappe
+2026-05-08 09:21:51,778 DEBUG cd /home/srikar/Desktop/school_ERP_Project/frappe-bench && uv pip install --quiet --upgrade -e /home/srikar/Desktop/school_ERP_Project/frappe-bench/apps/frappe  --python /home/srikar/Desktop/school_ERP_Project/frappe-bench/env/bin/python
+2026-05-08 09:21:54,772 DEBUG cd /home/srikar/Desktop/school_ERP_Project/frappe-bench/apps/frappe && yarn install --check-files
+2026-05-08 09:22:01,409 LOG Installing school_erp
+2026-05-08 09:22:01,409 DEBUG cd /home/srikar/Desktop/school_ERP_Project/frappe-bench && uv pip install --quiet --upgrade -e /home/srikar/Desktop/school_ERP_Project/frappe-bench/apps/school_erp  --python /home/srikar/Desktop/school_ERP_Project/frappe-bench/env/bin/python
+2026-05-08 09:22:22,448 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:24:32,413 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:24:32,987 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:24:33,016 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:24:33,017 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:24:33,058 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:25:59,182 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:27:46,119 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:27:46,501 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:27:46,506 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:27:46,517 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:27:46,557 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:30:21,474 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:31:34,955 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:31:35,345 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:31:35,356 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:31:35,369 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:31:35,375 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:33:04,000 INFO /home/srikar/.local/bin/bench clear-cache
+2026-05-08 09:33:05,294 INFO /home/srikar/.local/bin/bench build
+2026-05-08 09:33:59,600 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:33:59,878 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:33:59,879 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:33:59,880 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:33:59,882 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:35:14,809 INFO /home/srikar/.local/bin/bench build --app frappe
+2026-05-08 09:35:36,195 INFO /home/srikar/.local/bin/bench build --app school_erp
+2026-05-08 09:36:44,973 INFO /home/srikar/.local/bin/bench clear-cache
+2026-05-08 09:37:15,011 INFO /home/srikar/.local/bin/bench --site all clear-cache
+2026-05-08 09:37:16,156 INFO /home/srikar/.local/bin/bench --site all clear-website-cache
+2026-05-08 09:38:03,594 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:38:03,953 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:38:03,976 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:38:03,981 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:38:03,987 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:41:26,100 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:41:26,477 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:41:26,484 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:41:26,495 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:41:26,501 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:43:12,392 INFO /home/srikar/.local/bin/bench --site school.local execute frappe.db.get_value('User', 'Administrator', 'user_type')
+2026-05-08 09:43:22,369 INFO /home/srikar/.local/bin/bench --site school.local console
+2026-05-08 09:43:46,414 INFO /home/srikar/.local/bin/bench --site school.local console
+2026-05-08 09:44:56,504 INFO /home/srikar/.local/bin/bench --site school.local console
+2026-05-08 09:45:42,015 INFO /home/srikar/.local/bin/bench --site school.local execute frappe.db.set_value('Role', 'System Manager', 'desk_access', 1)
+2026-05-08 09:47:31,932 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:47:32,335 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:47:32,345 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 09:47:32,348 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:47:32,382 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:52:26,663 INFO /home/srikar/.local/bin/bench start
+2026-05-08 09:52:27,069 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 09:52:27,124 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 09:52:27,124 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 09:52:27,135 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 11:50:57,954 INFO /home/srikar/.local/bin/bench start
+2026-05-08 11:50:58,253 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 11:50:58,288 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 11:50:58,293 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 11:50:58,317 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 12:16:37,730 INFO /home/srikar/.local/bin/bench --site school.local migrate
+2026-05-08 12:28:32,863 INFO /home/srikar/.local/bin/bench --site school.local migrate
+2026-05-08 12:29:43,918 INFO /home/srikar/.local/bin/bench start
+2026-05-08 12:31:12,513 INFO /home/srikar/.local/bin/bench start
+2026-05-08 12:31:12,995 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 12:31:13,006 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 12:31:13,043 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 12:31:13,059 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 12:35:40,375 INFO /home/srikar/.local/bin/bench start
+2026-05-08 12:35:40,782 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 12:35:40,785 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 12:35:40,789 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 12:35:40,818 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 12:37:03,597 INFO /home/srikar/.local/bin/bench stop
+2026-05-08 12:37:13,033 INFO /home/srikar/.local/bin/bench start
+2026-05-08 12:37:18,427 INFO /home/srikar/.local/bin/bench start
+2026-05-08 12:37:51,551 INFO /home/srikar/.local/bin/bench restart
+2026-05-08 12:37:59,261 INFO /home/srikar/.local/bin/bench start
+2026-05-08 12:38:14,036 INFO /home/srikar/.local/bin/bench start
+2026-05-08 12:38:14,435 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 12:38:14,443 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 12:38:14,457 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 12:38:14,464 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 16:06:53,006 INFO /home/srikar/.local/bin/bench start
+2026-05-08 16:06:53,457 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 16:06:53,476 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 16:06:53,477 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 16:06:53,492 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 16:14:21,846 INFO /home/srikar/.local/bin/bench start
+2026-05-08 16:14:22,235 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 16:14:22,235 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 16:14:22,249 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 16:14:22,250 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 16:31:17,521 INFO /home/srikar/.local/bin/bench start
+2026-05-08 16:31:17,931 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 16:31:17,939 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 16:31:17,965 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 16:31:17,977 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 18:12:30,783 INFO /home/srikar/.local/bin/bench start
+2026-05-08 18:12:31,202 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 18:12:31,204 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 18:12:31,212 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 18:12:31,221 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 18:24:22,314 INFO /home/srikar/.local/bin/bench start
+2026-05-08 18:24:22,688 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 18:24:22,692 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 18:24:22,712 INFO /home/srikar/.local/bin/bench schedule
+2026-05-08 18:24:22,712 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 20:35:08,945 INFO /home/srikar/.local/bin/bench start
+2026-05-08 20:35:09,380 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-08 20:35:09,408 INFO /home/srikar/.local/bin/bench worker
+2026-05-08 20:35:09,418 INFO /home/srikar/.local/bin/bench watch
+2026-05-08 20:35:09,426 INFO /home/srikar/.local/bin/bench schedule
+2026-05-09 10:18:18,363 INFO /home/srikar/.local/bin/bench start
+2026-05-09 10:18:18,825 INFO /home/srikar/.local/bin/bench worker
+2026-05-09 10:18:18,849 INFO /home/srikar/.local/bin/bench schedule
+2026-05-09 10:18:18,855 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-09 10:18:18,863 INFO /home/srikar/.local/bin/bench watch
+2026-05-10 09:25:09,168 INFO /home/srikar/.local/bin/bench start
+2026-05-10 09:25:09,638 INFO /home/srikar/.local/bin/bench schedule
+2026-05-10 09:25:09,639 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-10 09:25:09,639 INFO /home/srikar/.local/bin/bench worker
+2026-05-10 09:25:09,677 INFO /home/srikar/.local/bin/bench watch
+2026-05-10 20:47:44,350 INFO /home/srikar/.local/bin/bench start
+2026-05-10 20:47:44,909 INFO /home/srikar/.local/bin/bench watch
+2026-05-10 20:47:44,910 INFO /home/srikar/.local/bin/bench schedule
+2026-05-10 20:47:44,927 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-10 20:47:44,929 INFO /home/srikar/.local/bin/bench worker
+2026-05-11 16:53:14,187 INFO /home/srikar/.local/bin/bench --site school.local mariadb
+2026-05-11 17:01:47,874 INFO /home/srikar/.local/bin/bench start
+2026-05-11 17:01:48,298 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-11 17:01:48,304 INFO /home/srikar/.local/bin/bench watch
+2026-05-11 17:01:48,315 INFO /home/srikar/.local/bin/bench schedule
+2026-05-11 17:01:48,368 INFO /home/srikar/.local/bin/bench worker
+2026-05-11 17:33:12,181 INFO /home/srikar/.local/bin/bench start
+2026-05-11 17:33:12,585 INFO /home/srikar/.local/bin/bench watch
+2026-05-11 17:33:12,592 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-11 17:33:12,612 INFO /home/srikar/.local/bin/bench worker
+2026-05-11 17:33:12,628 INFO /home/srikar/.local/bin/bench schedule
+2026-05-11 19:20:53,148 INFO /home/srikar/.local/bin/bench restart
+2026-05-11 19:40:42,926 INFO /home/srikar/.local/bin/bench start
+2026-05-11 19:40:43,264 INFO /home/srikar/.local/bin/bench serve --port 8000
+2026-05-11 19:40:43,271 INFO /home/srikar/.local/bin/bench schedule
+2026-05-11 19:40:43,282 INFO /home/srikar/.local/bin/bench watch
+2026-05-11 19:40:43,299 INFO /home/srikar/.local/bin/bench worker

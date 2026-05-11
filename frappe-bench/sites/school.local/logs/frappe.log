@@ -1,0 +1,18 @@
+2026-05-08 12:44:55,340 ERROR frappe New Exception collected in error log
+Site: school.local
+Form Dict: {'student': 'SRIKAR', 'marks_obtained': '45', 'max_marks': '100', 'exam_date': '2026-05-04', 'remarks': 'GOOD', 'subject': 'Physics', 'cmd': 'school_erp.api.save_marks'}
+2026-05-08 12:45:58,830 ERROR frappe New Exception collected in error log
+Site: school.local
+Form Dict: {'student': 'STU-2026-0001', 'marks_obtained': '45', 'max_marks': '100', 'exam_date': '2026-05-03', 'remarks': 'Satisfactory', 'subject': 'Physics', 'cmd': 'school_erp.api.save_marks'}
+2026-05-08 12:46:00,708 ERROR frappe New Exception collected in error log
+Site: school.local
+Form Dict: {'student': 'STU-2026-0001', 'marks_obtained': '45', 'max_marks': '100', 'exam_date': '2026-05-03', 'remarks': 'Satisfactory', 'subject': 'Physics', 'cmd': 'school_erp.api.save_marks'}
+2026-05-08 12:46:01,354 ERROR frappe New Exception collected in error log
+Site: school.local
+Form Dict: {'student': 'STU-2026-0001', 'marks_obtained': '45', 'max_marks': '100', 'exam_date': '2026-05-03', 'remarks': 'Satisfactory', 'subject': 'Physics', 'cmd': 'school_erp.api.save_marks'}
+2026-05-08 12:48:11,658 ERROR frappe New Exception collected in error log
+Site: school.local
+Form Dict: {'student': 'STU-2026-0001', 'marks_obtained': '98', 'max_marks': '100', 'exam_date': '2026-05-03', 'remarks': 'Excellent', 'subject': 'Physics', 'cmd': 'school_erp.api.save_marks'}
+2026-05-08 12:48:13,453 ERROR frappe New Exception collected in error log
+Site: school.local
+Form Dict: {'student': 'STU-2026-0001', 'marks_obtained': '98', 'max_marks': '100', 'exam_date': '2026-05-03', 'remarks': 'Excellent', 'subject': 'Physics', 'cmd': 'school_erp.api.save_marks'}

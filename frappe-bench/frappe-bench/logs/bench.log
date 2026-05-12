@@ -12,3 +12,4 @@
 2026-05-12 09:58:35,625 INFO /home/srikar/.local/bin/bench new-site mysite.local
 2026-05-12 10:02:31,848 INFO /home/srikar/.local/bin/bench drop-site mysite.local --force
 2026-05-12 10:04:15,364 INFO /home/srikar/.local/bin/bench drop-site mysite.local --force
+2026-05-12 12:00:01,434 INFO /home/srikar/.local/bin/bench --verbose --site all backup
